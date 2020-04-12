@@ -1,23 +1,18 @@
 package Domain;
 
-public class Room implements IDescription
+public class Trap implements IDescription
 {
-	private Exit[] roomExits;
+
 	private String description;
-	private Puzzle puzzle;
-	private Trap trap;
+	private int moveReduction;
+	private boolean isFatal;
 	
-	
-	public Room()
-	{
-		
-	}
-
-
 	@Override
 	public String getDescription()
 	{
 		// TODO Auto-generated method stub
 		return description;
 	}
+	
+	
 }
