@@ -7,6 +7,5 @@ public enum Exit
 	North,
 	East,
 	South,
-	West,
-	Northwest
+	West
 }
