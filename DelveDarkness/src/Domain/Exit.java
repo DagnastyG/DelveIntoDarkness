@@ -1,7 +1,5 @@
 package Domain;
 
-// Trevor
-
 public enum Exit
 {
 	North,
